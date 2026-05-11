@@ -48,27 +48,33 @@
   <body>
     <main>
       <h1>SuperX Browser Agent Privacy Policy</h1>
-      <p class="updated">Last updated: May 3, 2026</p>
+      <p class="updated">Last updated: May 11, 2026</p>
 
       <p>
         SuperX Browser Agent connects the local SuperX desktop app with the
         user's Chrome browser to provide browser assistance requested by the
-        user.
+        user. This policy applies to the SuperX Browser Agent Chrome extension.
       </p>
 
       <h2>Single Purpose</h2>
       <p>
-        The extension's single purpose is to let the local SuperX desktop app
-        inspect and operate web pages in Chrome when the user requests browser
-        assistance.
+        The extension's single purpose is to connect Chrome to the local SuperX
+        desktop app so SuperX can inspect and operate browser pages for
+        user-requested browser assistance tasks.
       </p>
 
       <h2>Data Accessed</h2>
+      <p>
+        The extension requests access to all websites so browser assistance can
+        work consistently across sites selected by the user. Depending on the
+        task requested in SuperX, the extension may access:
+      </p>
       <ul>
-        <li>Active tab information, including page URL, page title, and tab state.</li>
+        <li>Tab information, including page URL, page title, tab ID, window ID, and tab state.</li>
         <li>
-          Website content on the active tab or websites authorized by the user,
-          including text, links, forms, page structure, and media state.
+          Website content in the active browser context, including visible text,
+          links, forms, page structure, actionable elements, media state, and
+          visible-tab screenshots.
         </li>
         <li>
           User-requested page actions, such as clicks, form input, option
@@ -83,6 +89,12 @@
         browser or page data only when SuperX sends an explicit command for a
         user-requested task.
       </p>
+      <p>
+        Examples include reading page structure so SuperX can answer a question
+        about the current page, filling a form field when requested by the user,
+        clicking a visible page control, scrolling the page, or capturing a
+        visible-tab screenshot for a user-requested task.
+      </p>
 
       <h2>Data Sharing</h2>
       <p>
@@ -96,6 +108,20 @@
         Browser and page data may be sent to the local SuperX desktop app
         installed on the user's device through Chrome Native Messaging to
         complete user-requested tasks.
+      </p>
+      <p>
+        The extension itself does not transmit browser data to an external
+        server. Any processing beyond the extension happens through the local
+        SuperX desktop app and the services or accounts the user configures
+        there.
+      </p>
+
+      <h2>Data Not Accessed</h2>
+      <p>
+        The extension does not request Chrome permissions for cookies,
+        passwords, bookmarks, downloads, or the Chrome history API. It does not
+        read cookie values, saved passwords, payment information, or browser
+        bookmarks.
       </p>
 
       <h2>Remote Code</h2>
